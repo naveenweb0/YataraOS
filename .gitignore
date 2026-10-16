@@ -1,0 +1,50 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+build/
+data/imports/*
+data/processed/*
+!data/imports/.gitkeep
+!data/processed/.gitkeep
+trip_packages/*
+!trip_packages/.gitkeep
+*.sqlite
+*.sqlite3
+*.db
+models/
+cache/
+routing-data/
+*.mbtiles
+*.pmtiles
+
+# Local databases and backups
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-*
+data/backups/
+backups/
+
+# Python environments and test caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Local models and large geographic datasets
+models/
+cache/
+routing-data/
+*.mbtiles
+*.pmtiles
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.DS_Store
